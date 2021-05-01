@@ -21,6 +21,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       {/* Add this <section> tag below the existing <section> tag */}
+      {/*
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -37,6 +38,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      */}
     </Layout>
   )
 }
