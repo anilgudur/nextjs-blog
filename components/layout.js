@@ -32,8 +32,8 @@ export default function Layout({ children, home }) {
               priority
               src="/images/amulyaorganic.png"
               className={utilStyles.borderCircle}
-              width={257}
-              height={130}
+              width={514}
+              height={260}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
