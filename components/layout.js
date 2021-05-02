@@ -84,9 +84,9 @@ export default function Layout({ children, home }) {
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`} */}
         <meta
           property="og:image"
-          content={`https://www.amulyaorganic.co.in/${encodeURI(
+          content={`http://www.amulyaorganic.co.in/${encodeURI(
             siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fwww.amulyaorganic.co.in%2F_next%2Fimage%3Furl%3D%2Fimages%2Famulya-name-white-257x130.svg%26w%3D384%26q%3D75`}
+          )}.png?theme=light&md=0&fontSize=75px&images=http%3A%2F%2Fwww.amulyaorganic.co.in%2F_next%2Fimage%3Furl%3D%2Fimages%2Famulya-name-white-257x130.svg%26w%3D384%26q%3D75`}
         />
         <meta property="og:site_name" content="Amulya Organic" />
         <meta property="og:url" content="https://www.amulyaorganic.co.in" />
