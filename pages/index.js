@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <Image
         priority
-        src="/images/amulya-name-original-transfrant.svg"
+        src="/images/amulya-name-white-257x130.svg"
         className={utilStyles.borderCircle}
         width={257}
         height={130}
