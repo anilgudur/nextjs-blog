@@ -4,26 +4,109 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Coming soon'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Launching soon...'
+export const siteTitle =
+  "Wooden Pressed Oil | Cold Pressed Oil Near Me - Amulya Organic";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Buy wooden pressed oil or cold pressed oil (lakdi ghana oil, mara chekkuennai) at best prices. Pure and chemical-free cold pressed oil, groundnut, safflower, coconut, almond, sesame and mustard coconut oil."
         />
         <meta
-          property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          name="keywords"
+          content="
+          cold pressed oil,
+          wooden pressed oil,
+          wood pressed oil,
+          organic oil,
+
+          cold pressed oil near me,
+
+          cold pressed groundnut oil,
+          wooden pressed groundnut oil,
+          wood pressed groundnut oil,
+          organic groundnut oil,
+
+          cold pressed safflower oil,
+          wooden pressed safflower oil,
+          wood pressed safflower oil,
+          organic safflower oil,
+
+          lakdi ghana oil,
+
+          cold pressed oil in pune,
+          wooden pressed oil in pune,
+          wood pressed oil in pune,
+          cold pressed oil in mumbai,
+          wooden pressed oil in mumbai,
+          wood pressed oil in mumbai,
+          cold pressed oil in solapur,
+          wooden pressed oil in mumbai,
+          wood pressed oil in mumbai,
+
+          cold pressed oil mill near me,
+          wooden pressed oil mill near me,
+          wood pressed oil mill near me,
+          organic oil mill near me,
+
+          cold pressed oil shop near me,
+          wooden pressed oil shop near me,
+          wood pressed oil shop near me,
+          organic oil shop near me,
+
+          cold press oil,
+          wooden press oil,
+          wood press oil,
+
+          kachi ghani oil,
+
+          wooden pressed oil near me,
+          wood pressed oil near me,
+          organic oil near me,
+          cold pressed oils,
+          wooden pressed oils,
+          wood pressed oils,
+          cold press oils,
+          wooden press oils,
+          wood press oils"
         />
-        <meta name="og:title" content={siteTitle} />
+
+        {/* https://www.amulyaorganic.co.in/_next/image?url=%2Fimages%2Famulyaorganic.png&w=640&q=75
+        https%3A%2F%2Fwww.amulyaorganic.co.in%2F_next%2Fimage?url=%2Fimages%2Famulyaorganic.png&w=640&q=75 */}
+        {/* content={`https://og-image.vercel.app/${encodeURI(
+            siteTitle
+          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`} */}
+        <meta
+          property="og:image"
+          content={`https://www.amulyaorganic.co.in/${encodeURI(
+            siteTitle
+          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fwww.amulyaorganic.co.in%2F_next%2Fimage?url=%2Fimages%2Famulyaorganic.png&w=640&q=75`}
+        />
+        <meta property="og:site_name" content="Amulya Organic" />
+        <meta
+          property="og:url"
+          content="https://www.amulyaorganic.co.in/wooden-pressed-edible-oils"
+        />
+        <meta property="og:title" content="Wooden Pressed Oils" />
+        <meta property="og:type" content="product.group" />
+        <meta
+          property="og:description"
+          content="Buy wooden pressed oil or cold pressed oil (lakdi ghana oil, mara chekkuennai) at best prices. Pure and chemical-free cold pressed oil, groundnut, safflower, coconut, almond, sesame and mustard coconut oil."
+        />
+
+        <meta name="twitter:site" content="@" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wooden Pressed Oils" />
+        <meta
+          name="twitter:description"
+          content="Buy wooden pressed oil or cold pressed oil (lakdi ghana oil, mara chekkuennai) at best prices. Pure and chemical-free cold pressed oil, groundnut, safflower, coconut, almond, sesame and mustard coconut oil."
+        />
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -36,7 +119,9 @@ export default function Layout({ children, home }) {
               height={260}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.headingLg} style={{ color: "#AAAAAA" }}>
+              {name}
+            </h1>
           </>
         ) : (
           <>
@@ -69,5 +154,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
