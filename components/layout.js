@@ -86,13 +86,10 @@ export default function Layout({ children, home }) {
           property="og:image"
           content={`https://www.amulyaorganic.co.in/${encodeURI(
             siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fwww.amulyaorganic.co.in%2F_next%2Fimage?url=%2Fimages%2Famulyaorganic.png&w=640&q=75`}
+          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fwww.amulyaorganic.co.in%2F_next%2Fimage%3Furl%3D%252Fimages%252Famulyaorganic.png%26w%3D640%26q%3D75`}
         />
         <meta property="og:site_name" content="Amulya Organic" />
-        <meta
-          property="og:url"
-          content="https://www.amulyaorganic.co.in/wooden-pressed-edible-oils"
-        />
+        <meta property="og:url" content="https://www.amulyaorganic.co.in" />
         <meta property="og:title" content="Wooden Pressed Oils" />
         <meta property="og:type" content="product.group" />
         <meta
