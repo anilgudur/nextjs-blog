@@ -92,7 +92,7 @@ export default function Layout({ children, home }) {
         <meta property="og:type" content="product.group" />
         <meta
           property="og:description"
-          content="Buy cold pressed oil i.e. wooden churned (lakdi ghana) at best prices. Pure and chemical-free cold pressed groundnut, safflower, coconut, almond, sesame, flaxseed, and mustard oil."
+          content="Buy cold pressed oil i.e. wooden churned (lakdi ghana) at best prices. Pure and chemical-free groundnut, safflower, coconut, almond, sesame, flaxseed, & many"
         />
 
         <meta name="twitter:site" content="@" />
@@ -100,7 +100,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:title" content="Wooden Pressed Oils" />
         <meta
           name="twitter:description"
-          content="Buy cold pressed oil i.e. wooden churned (lakdi ghana) at best prices. Pure and chemical-free cold pressed groundnut, safflower, coconut, almond, sesame, flaxseed, and mustard oil."
+          content="Buy cold pressed oil i.e. wooden churned (lakdi ghana) at best prices. Pure and chemical-free groundnut, safflower, coconut, almond, sesame, flaxseed, & many"
         />
       </Head>
       <header className={styles.header}>
