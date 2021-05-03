@@ -4,7 +4,6 @@ import utilStyles from '../styles/utils.module.css'
 import { getParsedPosts } from '../lib/postsParse'
 import Link from 'next/link'
 import Date from '../components/date'
-import Image from "next/image";
 
 export async function getStaticProps() {
   const allPostsData = getParsedPosts()
@@ -21,14 +20,6 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <Image
-        priority
-        src="/images/amulya-v-created.png"
-        className={utilStyles.borderCircle}
-        width={257}
-        height={130}
-        alt="svg"
-      />
       {/* Add this <section> tag below the existing <section> tag */}
       {/*
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
