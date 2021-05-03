@@ -16,7 +16,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
-          content="Buy wooden pressed oil or cold pressed oil (lakdi ghana oil, mara chekkuennai) at best prices. Pure and chemical-free cold pressed oil, groundnut, safflower, coconut, almond, sesame and mustard coconut oil."
+          content="Buy cold pressed oil or wooden pressed oil (lakdi ghana, mara chekkuennai) at best prices. Pure and chemical-free cold pressed groundnut, safflower, coconut, almond, sesame, flaxseed, and mustard oil."
         />
         <meta
           name="keywords"
@@ -92,7 +92,7 @@ export default function Layout({ children, home }) {
         <meta property="og:type" content="product.group" />
         <meta
           property="og:description"
-          content="Buy wooden pressed oil or cold pressed oil (lakdi ghana oil, mara chekkuennai) at best prices. Pure and chemical-free cold pressed oil, groundnut, safflower, coconut, almond, sesame and mustard coconut oil."
+          content="Buy cold pressed oil i.e. wooden churned (lakdi ghana) at best prices. Pure and chemical-free cold pressed groundnut, safflower, coconut, almond, sesame, flaxseed, and mustard oil."
         />
 
         <meta name="twitter:site" content="@" />
@@ -100,7 +100,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:title" content="Wooden Pressed Oils" />
         <meta
           name="twitter:description"
-          content="Buy wooden pressed oil or cold pressed oil (lakdi ghana oil, mara chekkuennai) at best prices. Pure and chemical-free cold pressed oil, groundnut, safflower, coconut, almond, sesame and mustard coconut oil."
+          content="Buy cold pressed oil i.e. wooden churned (lakdi ghana) at best prices. Pure and chemical-free cold pressed groundnut, safflower, coconut, almond, sesame, flaxseed, and mustard oil."
         />
       </Head>
       <header className={styles.header}>
